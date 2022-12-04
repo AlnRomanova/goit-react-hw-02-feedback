@@ -1,0 +1,18 @@
+.option {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+.btn {
+    margin: 7px;
+    border-radius: 6px;
+    color: rgb(65, 53, 68);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: white;
+    padding: 8px 8px;
+    border: 1px solid rgb(190, 131, 246);
+    cursor: pointer;
+}
