@@ -16,3 +16,8 @@
     border: 1px solid rgb(190, 131, 246);
     cursor: pointer;
 }
+
+.btn:hover, .btn:focus {
+  background-color: rgb(190, 131, 246);
+  color: white;
+}
