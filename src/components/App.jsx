@@ -12,7 +12,7 @@ export class App extends Component {
   };
 
   handleClickBtn = e => {
-    this.setState(prevState => ({ [e.target.id]: prevState[e.target.id] + 1 }));
+    this.setState(prevState => ({[e.target.id]: prevState[e.target.id] + 1 }));
   };
 
   countTotalFeedback() {
@@ -49,7 +49,7 @@ export class App extends Component {
             positivePercentage={percentage}
           />)
           }
-          
+
         </Section>
       </>
     );
